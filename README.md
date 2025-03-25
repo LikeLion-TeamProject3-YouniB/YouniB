@@ -194,10 +194,8 @@ BioQA 데이터셋을 활용해 선정한 LLaMA 3.1 8B을 "문제 생성", "요�
 - 객관식 3300 문제, 단답형 3300 문제, 총 6600개의 데이터셋을 통한 모델 학습
 - 학습되지 않은 새로운 문제들을 프롬프트 상에 예시로 추가하는 One-Shot, Few-Shot 기법으로 파인 튜닝 진행 및 추론 결과 확인
 
-
-<details><summary>실험 결과 - 프롬프트 엔지니어링
-</summary>
-
+<details>
+  <summary><a href="https://github.com/LikeLion-TeamProject3-YouniB/YouniB/blob/main/model/QA%20model_prompts.md">실험 결과 - 프롬프트 엔지니어링</a></summary>
 - Few-Shot (예시 1, 2, 4개)
 - 프롬프트 구조 배치 (Context + Instruct, Instruct + Context)
 
